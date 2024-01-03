@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Application">
+      <UniqueIdentifier>{c2bd81a1-50d0-45a1-9c20-8ad7be76422e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AnOndo Game Engine">
+      <UniqueIdentifier>{708e13d0-3d4d-40a3-af26-43375818e78d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AnOndo Game Engine\WindowingSystem">
+      <UniqueIdentifier>{141c3287-4785-4b08-94de-ad3eb04dec57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AnOndo Game Engine\GraphicsEngine">
+      <UniqueIdentifier>{0bbdb5c5-79c5-420e-b0b3-1386c3d40225}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Application</Filter>
+    </ClCompile>
+    <ClCompile Include="Window.cpp">
+      <Filter>AnOndo Game Engine\WindowingSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="AppWindow.cpp">
+      <Filter>Application</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Window.h">
+      <Filter>AnOndo Game Engine\WindowingSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="AppWindow.h">
+      <Filter>Application</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
